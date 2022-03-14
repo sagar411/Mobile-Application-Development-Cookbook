@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Airline App-Individual Project</string>
+    <string-array name="airline_Data">
+        <item> Yeti Airline</item>
+        <item>Buddha Airline</item>
+        <item>Shree Airline</item>
+
+    </string-array>
+    <string-array name="place">
+        <item>Kathmandu</item>
+        <item>Pokhara</item>
+        <item>Biratnagar</item>
+        <item>Chitwan</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

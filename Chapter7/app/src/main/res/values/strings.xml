@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ToolBar</string>
+    <string name="create_order">CreateOrder</string>
+</resources>

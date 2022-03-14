@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Double Activity</string>
+    <string name="hint">Enter a message</string>
+    <string name="button_txt">Click Here</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobile Advisor app</string>
+    <string name="btn_text">Click me</string>
+    <string-array name="items_mobile">
+    <item>Samsung</item>
+        <item>apple</item>
+    <item>Oppo</item>
+        <item>vivo</item>
+    </string-array>
+</resources>

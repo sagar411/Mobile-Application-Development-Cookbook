@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sagar Sunar"
+        android:textSize="20dp"
+
+
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/simpleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="User Name"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <EditText
+        android:id="@+id/simpleEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/simpleEditText"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleEditText2"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+
+        />
+
+    <EditText
+        android:id="@+id/simpleEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:hint="Phone"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:id="@+id/simpleEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleEditText3"
+        android:hint="Address"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleEditText4"
+        android:text="Button"
+        android:layout_marginTop="30dp"
+        ></Button>
+
+
+
+
+
+
+</RelativeLayout>

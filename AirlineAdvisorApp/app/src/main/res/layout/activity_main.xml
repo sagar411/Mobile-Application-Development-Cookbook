@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Airlines"
+
+        />
+    <Spinner
+        android:id="@+id/Spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:layout_below="@+id/Spinner1"
+
+        />
+    <Spinner
+        android:id="@+id/Spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:layout_below="@id/Spinner2"
+
+        />
+    <Spinner
+        android:id="@+id/Spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        />
+
+    <TextView
+        android:id="@+id/dateview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:layout_below="@+id/Spinner3"
+        />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateview"
+        android:hint="select date"
+        android:layout_marginRight="30dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateview"
+        android:layout_toRightOf="@+id/date"
+        android:drawableLeft="@drawable/icon1"
+        android:backgroundTint="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/passangerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Number of Passanger"
+        android:layout_below="@+id/button1"
+        />
+
+    <EditText
+        android:id="@+id/passanger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passangerview"
+        android:hint="no. of passanger"
+        android:layout_marginRight="30dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passanger"
+        android:text="Submit"
+        />
+
+
+
+</RelativeLayout>

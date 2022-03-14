@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string-array name="subjects">
+        <item>BCS</item>
+        <item>MBA</item>
+    </string-array>
+    <string name="welcome">Welcome to  IUKL</string>
+    <string name="message">Click to Admission</string>
+</resources>

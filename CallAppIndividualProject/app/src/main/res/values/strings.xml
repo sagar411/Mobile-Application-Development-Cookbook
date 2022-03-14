@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"> Phone Call App-Individual project</string>
+    <string name="login_form">Login Form</string>
+    <string name="user_name">Enter User Name</string>
+    <string name="password">Enter Password</string>
+    <string name="button">Login</string>
+</resources>
